@@ -133,6 +133,19 @@ button:hover, button:active {
     cursor: pointer;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    color: var(--neutraldarkgrayishblue);
+    background-color: var(--primarycream);
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--neutraldarkgrayishblue);
+}
+
 @media (min-width: 700px){
     .content-card {
         width: 600px;
